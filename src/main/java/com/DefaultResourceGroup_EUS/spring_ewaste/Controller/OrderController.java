@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://eco-finder.vercel.app/")
 @RestController
 @RequestMapping("/api/orders")
 public class OrderController {
